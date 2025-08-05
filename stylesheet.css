@@ -1,0 +1,101 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
+body{
+    background-color:white;
+}
+#navbar{
+    height: 55px;
+    width: auto;
+    background-color:black;
+    text-align: center;
+    padding: 7px; 
+    color: white;  
+}
+
+.categories{
+    height: auto;
+    width: auto;
+    
+    text-align: center;
+    padding: 10px; 
+    display: flex;
+    gap: 15px; 
+    justify-content: center;
+    flex-wrap: wrap; 
+}
+.categories a{
+    color: black;
+    text-transform: capitalize;
+    padding: 5px 25px;
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 8px;
+    font-size: 20px;
+    position: relative ; 
+    transition:font-size 2s ease-in 0.5s;
+         
+}
+.categories a:hover{
+    
+    transform: scale(1.1);
+    
+    
+}
+.recommand{
+height: auto;
+width: auto;
+border:2px solid white;
+margin: 3px;
+text-transform:capitalize;
+display: flex;
+flex-direction: row;
+gap: 30px;
+justify-content:space-evenly;
+}
+.recommand img{
+    height: 250px;
+    width: 200px;
+    border: 3px solid #000f00f3;
+    border-radius: 0.7rem;
+    overflow: hidden;
+    box-sizing: border-box;
+    object-fit: cover;
+    
+}
+h3{
+    color: black;
+    text-transform: capitalize;
+    font-style: normal;
+}
+
+.container{
+   margin: 5px;
+   border-top: 1px solid black;
+   border-radius: 10px;
+   padding: 20px;
+    height: auto;
+    width: auto;
+
+}
+.container .movie-card:hover{
+    position: relative;
+     transform: scale(1.1);
+
+
+}
+#comedy{
+    padding: 15px;
+}
+#action{
+    padding: 15px;
+}
+#romance{    
+    padding: 15px;
+}
+#sci_fi{
+    padding: 15px;
+}
+
